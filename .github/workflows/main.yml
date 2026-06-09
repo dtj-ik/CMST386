@@ -11,6 +11,6 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'cmst386-umgc-zsotelo'
+        app-name: 'CMST386-umgc-zsotelo'
         slot-name: 'production'
         publish-profile: ${{ secrets.APPSERVICECMST386 }}
