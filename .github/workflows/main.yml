@@ -15,4 +15,4 @@ jobs:
       with:
         app-name: 'CMST386-UMGC-zsotelo'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AppServiceCMST386 }}
+        publish-profile: ${{ secrets.APPSERVICECMST386 }}
