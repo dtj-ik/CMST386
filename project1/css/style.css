@@ -7,6 +7,9 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* page header */
@@ -92,11 +95,13 @@ nav li:focus-within > ul {
 /*Main*/
 main {
     max-width: 1000px;
+    width: 90%;
     margin: 25px auto;
     padding: 25px;
     background-color: #ffffff;
     border: 2px solid #7FA8A1;
     box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+    flex: 1;
 }
 
 section {
@@ -192,7 +197,6 @@ footer {
     color:#ffffff;
     text-align: center;
     padding: 15px;
-    margin-top: 30px;
     clear: both;
 }
 
